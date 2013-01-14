@@ -5,7 +5,7 @@ include('setters.php');
 
 error_reporting(E_ALL|E_STRICT);
 ini_set('display_errors',1);
-
+ 
 $xml = createXmlElement();
 
 $dbCredentials = dbCredentials($xml);
